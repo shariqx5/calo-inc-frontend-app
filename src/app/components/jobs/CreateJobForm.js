@@ -34,6 +34,7 @@ export const CreateJobForm = ({ createJob }) => {
             <Form.Control
               type="text"
               placeholder="For e:g Diet Plan"
+              value={jobName}
               onChange={handleCreateJobTextChange}
               isInvalid={isJobNameError}
             />
